@@ -1,0 +1,5 @@
+# dsh-time-awareness bundle patch：把本插件的 host 行插入 DSH 的 host 组合。
+# id 必须唯一；name 必须是 npm 包名，host 才能按它加载本包的 main 入口。
+- insert:
+    - id: dsh-time-awareness
+      name: dsh-time-awareness
